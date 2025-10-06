@@ -1,0 +1,54 @@
+body { font-family: Arial, sans-serif;
+     margin: 0;
+    padding: 1; 
+}
+    header {
+        background: #34AFEE; color: white; padding: 15px; display: flex; justify-content: space-between;;
+    }
+
+    nav a {
+    color: white; margin: 0 10px; text-decoration: none; 
+    }
+
+    .banner {
+    background: no-repeat center/cover; color: white;
+    text-align: center; 
+    padding: 100px 20px;
+}
+    .banner{
+    background-image:url(img/Cidades/ilhas\ maldivas\ banner.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+    .banner h1 {
+    font-size: 2em;
+}
+    .btn {
+    background: #ffb703; padding: 10px 20px; border: none; cursor: pointer; font-weight: bold; 
+}
+    .destinos {
+    padding: 20px; text-align: center;
+}
+    .cards {
+    display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; 
+}
+    .card {
+    width: 200px; border: 1px solid #ddd; border-radius: 5px; overflow: hidden; 
+}
+    .card img {
+    width: 100%;
+}
+    .card p {
+    padding: 10px; font-size: 14px;
+}
+    .newsletter {
+    background: #f1f1f1; padding: 20px; text-align: center;
+    }
+
+    footer {
+         background: #333; color: white; text-align: center; 
+         padding: 10px; 
+    }
